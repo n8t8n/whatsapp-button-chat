@@ -1,0 +1,70 @@
+{
+  "displayNames": {
+    "01": "Servicio al cliente",
+    "02": "Ventas"
+  },
+  "options": {
+    "team": {
+      "01": {
+        "agents": [
+          {
+            "name": "Roxanne",
+            "whatsapp": {
+              "number": "1234567890",
+              "profileImage": "resources/media/thispersondoesnotexist-1.jpg"
+            }
+          }
+        ],
+        "formspree": {
+          "url": "https://formspree.io/f/meoqjlkw"
+        }
+      },
+      "02": {
+        "agents": [
+          {
+            "name": "Sophia",
+            "whatsapp": {
+              "number": "1234567890",
+              "profileImage": "resources/media/thispersondoesnotexist-6.jpg"
+            }
+          }
+        ],
+        "formspree": {
+          "url": "https://formspree.io/f/xovqanwo"
+        }
+      }
+    },
+    "widgetImageUrl": "resources/media/whatsapp.svg",
+    "modalBackgroundColor": "white",
+    "buttonColor": "#31dc31",
+    "textColor": "#202127",
+    "widgetProps": {
+      "id": "jonathan-a-button",
+      "width": "60px",
+      "height": "60px",
+      "position": "fixed",
+      "top": "",
+      "bottom": "0%",
+      "left": "",
+      "right": "0%",
+      "fontFamily": "system-ui"
+    },
+    "bubbleMsg": {
+      "textContent": "Hola 😁, Este es el demo del botón... ",
+      "waitAfterFinishTyping": 1300,
+      "waitBeforeToRestart": 2500,
+      "color": "black",
+      "position": "fixed",
+      "right": "50px",
+      "left": "auto",
+      "bottom": "40px"
+    },
+    "text": {
+      "textTitleH5": "Contacto",
+      "textLabelWa": "WhatsApp",
+      "textLabelForm": "Enviar Email",
+      "TextSubmitButton": "Enviar Mensaje",
+      "textUrlTopButton": "https://wafr.framer.ai"
+    }
+  }
+}

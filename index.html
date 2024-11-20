@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Button for Websites</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+</head>
+<body>
+   
+    <div class="g7h8i9">
+        
+
+        <div class="Xfjfe">
+            <h1 class="Hgjckri">WhatsApp Button</h1>
+            <p>This customizable WhatsApp button is configured via a JSON file, allowing you to easily manage team details and images stored in the <code>resources/media</code> directory.</p>
+        </div>
+      
+        <div class="j0k1l2">
+            <h2>Single File Integration</h2>
+            <div class="m3n4o5">
+                <h2>widget.js</h2>
+                <pre><code class="language-javascript">
+// Easy to paste and use code snippet:
+fetch("resources/javascript/bubble.js")
+  .then((response) => {
+    if (response.ok) {
+      return response.text();
+    } else {
+      throw new Error("Network response was not ok " + response.statusText);
+    }
+  })
+  .then((data) => {
+    const script = document.createElement("script");
+    script.textContent = data;
+    document.head.appendChild(script);
+  }); 
+                </code></pre>
+            </div>
+        </div>
+    </div>
+   
+    <div class="footer">
+        <div class="s9t0u1" >
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQErILwYcSk_FQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1731029584866?e=1737590400&v=beta&t=Pu56TShoTahO6xxRpHiFQ_iEWxkZ64Mhi8MA5Qvuvfk" alt="Jonathan A. Profile Picture">
+            <h2>Jonathan A.</h2>
+            <p>I'm not a developer, but I'm a teammate you didn’t know you needed 🚀 Helping SaaS clients thrive, building cool things, and a cat lover 🐱‍⬛.
+            </p>
+            <a href="https://linkedin.com/in/jonathan-linked-in" target="_blank">LinkedIn</a>
+        </div>    </div>
+    <script src="widget.js" defer></script>
+</body>
+</html>
